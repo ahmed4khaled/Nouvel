@@ -97,3 +97,20 @@ transition: .3s;
         padding: 10px;
         color: aliceblue;
     }
+@media (max-width:800px){
+    img{
+        width: 50px;
+    }
+    header ul{
+        display: none;
+    }
+    header {
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+
