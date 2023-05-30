@@ -110,6 +110,7 @@ transition: .3s;
         margin-bottom: 20px;
         font-size: 30px;
         text-align: center;
+        display: none;
     }
 }
 
