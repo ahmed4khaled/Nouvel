@@ -6,6 +6,8 @@ let moun2 = document.getElementById('mountains4')
 let moun3 = document.getElementById('mountains7')
 let boat = document.getElementById('boat')
 let nou = document.getElementById('nou')
+let H = document.getElementsByTagName('h2')[0]
+
 window.onscroll = function () {
 let value = scrollY
   start.style.left = value + 'px'
@@ -29,6 +31,11 @@ if (value>=328.5) {
     nou.style.display = 'none'
 }else{
     nou.style.display = 'block'
+}
+  if (value>=35) {
+    H.style.display = 'none'
+}else{
+    H.style.display = 'block'
 }
 }
 console.log(document.querySelector("section"));
